@@ -3,13 +3,13 @@
 I've mad only content changes to demo how a configured them repo looks and the end result.  
 To demo locally install the jekyll gem:  
 `$ gem install jekyll`  
-then clone this repo:   
+then clone this repo and checkout the `demo-theme` branch:   
 ```
 $ git clone git@github.com:EV-LUG/www.evlug.com.git /evlugdotcom
-$ cd evlugdotcom
+$ cd evlugdotcom 
+$ git checkout -b demo-theme
 ```
-and run the jekyll test server which will serve the site locally at `http://127.0.0.1:4000/`
-`$ jeykll serve`
+and run the jekyll test server `$ jeykll serve` which will serve the site locally at `http://127.0.0.1:4000/`
 
 
 This is theme is based on the Type-Theme and all the theme details can be found below:
